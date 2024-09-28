@@ -1,0 +1,127 @@
+.account-header{
+   background-image: url('../../../assets/bg/bg_2.png');
+   background-position: center;
+   background-size: cover;
+   height: 1000px;
+   color: #ffffff;
+   opacity: 1;
+   margin: 0 auto;
+}
+#identity{
+    padding-top: 300px;
+    padding-left: 100px;
+    font-size: 48px;
+    text-transform: uppercase;
+    width: 500Px;
+}
+.account-texte{
+    display: flex;
+    margin-left: -200px;
+    justify-content:center;
+}
+.list-account{
+    margin-left: -40px; 
+    margin-bottom: 50px;   
+}
+.list-account li{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.list-account .un{
+    text-decoration: underline;
+}
+.info{
+    text-decoration: underline;
+}
+
+.line{
+    width: 1px;
+    height: 400px;
+    background-color:#ffffff;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.info{
+    text-decoration: none;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    width: 500px;
+}
+.account-btn{
+    width: 200px;
+    text-transform: uppercase;
+    height: 50px;
+    background:linear-gradient(to left,#19587D,#01d6eebc);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+.informations{
+    margin-bottom: 50px;
+}
+#con{
+    background-color:none;
+    border: none;
+    padding: 10px 0;
+}
+#con::placeholder{
+    color: #ffffff;
+    background-color: transparent;
+}
+#com{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.note{
+    border: none;
+    background-color: transparent;
+    width: 500px;
+    height: 50px;
+}
+.note::placeholder{
+    color: #ffffff;
+    width: 500px;
+    height: 50px;
+}
+#comId{
+    background-color:transparent;
+    border: none;
+}
+.popup-content{
+    background:linear-gradient(to right,#000d15,#042134bc);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 5px;
+    z-index: 1001;
+    align-content: center;
+}
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index:1000 ;
+    background-color: rgba(0,0,0,1);
+    text-align: center;
+    
+}
+.popup-texte{
+    font-size: 48px;
+    width: 50%;
+    position: relative;
+    left: 300px;
+}
+

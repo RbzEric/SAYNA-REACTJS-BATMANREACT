@@ -1,0 +1,105 @@
+.panier-body {
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.recap {
+    justify-content: left;
+    padding-top: 50Px;
+}
+
+.list-produit {
+    display: flex;
+    border: 2px solid #ffffff;
+    margin-bottom: 50px;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.list-name {
+    padding-top: 80px;
+}
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    gap: 30px;
+
+}
+
+.quantity-controls {
+    background-color: #ffffff;
+    color: black;
+}
+
+.quantity-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0 5px;
+}
+
+.quantity-value {
+    margin: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.remove-btn {
+    height: 30px;
+    border-radius: 100%;
+    width: 30px;
+
+}
+
+.subtotal {
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    right: 400px;
+    font-family: 'rajdani';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
+.action-buttons {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'rajdani';
+    font-size: 20px;
+    display: flex;
+    padding: 10px 0;
+    width: 700px;
+
+}
+
+.continue-shopping-btn {
+    margin-right: 20px;
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(to right, #03609a, #09b5ef);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+
+
+}
+
+.checkout-btn {
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(to right, #03609a, #09b5ef);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}

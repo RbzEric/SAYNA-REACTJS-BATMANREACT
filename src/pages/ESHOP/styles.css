@@ -1,0 +1,24 @@
+.main-content{
+    display: flex;
+    padding: 20px;
+}
+.filters {
+    flex: 1;
+}
+.catalogue{
+    flex: 3;
+}
+.left-bar{
+    border-top: #c4c4c41e  5px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    height: auto;
+}
+.right-bar{
+    border-top: #c4c4c41e 5px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    height: auto;
+}

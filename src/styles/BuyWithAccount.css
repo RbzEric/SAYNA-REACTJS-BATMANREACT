@@ -1,0 +1,56 @@
+.paiement-page{
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: auto;
+}
+.paiement-box{
+    border: 2px solid #ffffff;
+    width: 600px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.edit{
+    text-decoration: none;
+    color: #19587D;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: -50px;
+}
+.paidCard{
+    display: inline-flex;
+}
+.visa{
+    width: 30px;
+    height: 15px;
+    margin-right: 20px;
+}
+.code{
+    margin-top: -5px;
+}
+.dot-code{
+    padding-right: 5px;
+}
+.expiratio-date{
+    padding-left: 50px;
+}
+.submitPaid{
+    background: linear-gradient(to right, #051679, #b11313b1);
+    color: #ffffff;
+    margin-top: 100px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border-bottom:#b11313b1 1px solid;
+    border-left:#b11313b1 1px solid;
+    border-top: #19587D 1px solid;
+    border-right: #19587D 1px solid;
+    font-family: 'rajdani';
+    font-size: 20px;
+    margin-left: 200px;
+    
+}

@@ -1,0 +1,140 @@
+.filter {
+    width: 300px;
+    margin-left: 10%;
+}
+
+/* #rangePrice{
+    width: 250px;
+    height: 2px;
+    accent-color: red;
+} */
+
+.slider-container {
+    margin-bottom: 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    accent-color: red;
+}
+
+.slider::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    accent-color: red;
+}
+
+.price-labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.V {
+    left: 7px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    float: right;
+    margin-top: 15px;
+}
+
+.V-inverse {
+    left: 7px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(225deg);
+    float: right;
+    margin-top: 15px;
+
+}
+
+.checkbox-containerShop {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+
+.checkbox-containerShop input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.category-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    font-family: 'rajdani';
+    font-size: 16px;
+}
+
+.category-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.category-list input[type="checkbox"]:checked {
+    background-color: red;
+}
+
+.category-list label {
+    flex-grow: 1;
+}
+
+.category-list span {
+    color: gray;
+}
+.category-list input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    border-radius: 3px;
+    width: 20px; 
+    height: 20px;
+    border: 2px solid #ffffff;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .category-list input[type="checkbox"]:checked {
+    background-color: red;
+    border: none;
+  }
+  
+  .category-list input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    top: 3px; 
+    left: 8px; 
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none; 
+  }
+  
+  .category-list input[type="checkbox"]:checked::before {
+    display: block; 
+  }
+

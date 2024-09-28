@@ -1,0 +1,99 @@
+:root{
+    --yellow-color:#ffff00;
+    --yellow-light:#f8f184;
+    --blue-color:#19587d82;
+    --white-color:#ffffff;
+    --gray-color:#C4C4C4;
+    --gradient-white:#eddebf4b;
+    --gradient-red:#89000952;
+    --black-color:#000000;
+}
+.catalogue{
+    padding: 20px;
+}
+.icon-panier{
+    float: right;
+    position: relative;
+    right: 100px;
+    margin-top: -50px;
+}
+
+.Result-sort{
+    display: flex;
+    justify-content: space-around;
+}
+
+.result{
+    margin-left: -250px;
+    font-family: 'rajdani';
+    font-size: 20px;
+}
+.product-sort{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+}
+.opt{
+    color: black;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px; 
+}
+
+.product-name{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'rajdani';
+    font-weight: 100;
+    font-size: 18px;
+}
+.product-price{
+    text-align: center;
+}
+.old-price{
+    text-decoration: line-through;
+    padding-right: 8px;
+    font-size: 14px;
+    font-family: 'rajdani';
+    font-weight: 1;
+}
+.new-price{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-btn{
+    width: 256px;
+    height: 50px;
+    background:linear-gradient(
+        80deg,var(--gradient-white),var(--gradient-red));
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: rgba(255, 223, 72, 0.8);
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 0 5px 5px 0;
+    z-index: 2;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+}
+
+.favorite-icon.active i {
+    color: red;
+}

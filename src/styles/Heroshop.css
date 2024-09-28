@@ -1,0 +1,45 @@
+body {
+    background: black;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    width: 100%;
+}
+
+.hero {
+    background-image: url(../../src/assets/bg/bg_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 200px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content {
+    padding-top: 300px;
+    padding-left: 10%;
+    font-size: 55px;
+    width: 850px;
+    font-family: 'rajdani';
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.flèche_down {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
