@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import { CartContext } from './CartContext';
 import { NavLink, useNavigate } from 'react-router-dom';
-import Empty from '../assets/images/empty.gif'
+import Empty from '../assets/images/empty.gif';
+import Chronopost from 'kisspng-chronopost-logistics-logo-delivery-brand-small-cube-5b61624b644a89-7093257415331088114108/';
 import '../styles/BuyWithoutAccount.css'
 
 const BuyWithoutAccount = () => {
@@ -36,7 +37,7 @@ const BuyWithoutAccount = () => {
                             <label className="delivery-option">
                                 <input type="radio" name="delivery" checked style={{ backgroundColor: 'transparent' }} />
                                 <div className="delivery-details">
-                                    {/* <img src={} alt="Chronopost" /> */}
+                                    <img src={Chronopost} alt="Chronopost" />
                                     <div className="delivery-info">
                                         <h4>chronopost</h4>
                                         <p>Livraison à domicile<br />3 à 4 jours ouvrés<br />3,95€</p>
